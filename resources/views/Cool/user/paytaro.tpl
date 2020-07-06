@@ -47,7 +47,7 @@
         }
       },
       error: (jqXHR) => {
-          swal(`${jqXHR} 发生错误了`);
+          swal(jqXHR + ' 发生错误了');
       }
     })
   }
